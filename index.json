@@ -1,1 +1,39 @@
 
+{
+  "responseId": "bbb",
+  "session": "projects/h/agent/sessions/hhhhhh",
+  "queryResult": {
+    "queryText": "End-user expression",
+    "parameters": {
+      "param-name": "param-value"
+    },
+    "allRequiredParamsPresent": true,
+    "fulfillmentText": "Response configured for matched intent",
+    "fulfillmentMessages": [
+      {
+        "text": {
+          "text": [
+            "Response configured for matched intent"
+          ]
+        }
+      }
+    ],
+    "outputContexts": [
+      {
+        "name": "projects/h/agent/sessions/hhhhhh/contexts/context-name",
+        "lifespanCount": 5,
+        "parameters": {
+          "param-name": "param-value"
+        }
+      }
+    ],
+    "intent": {
+      "name": "projects/h/agent/intents/intent-id",
+      "displayName": "matched-intent-name"
+    },
+    "intentDetectionConfidence": 1,
+    "diagnosticInfo": {},
+    "languageCode": "en"
+  },
+  "originalDetectIntentRequest": {}
+}
